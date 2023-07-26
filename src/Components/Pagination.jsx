@@ -8,7 +8,7 @@ const Pagination = ({ apiData, setPaginatedData, paginatedData }) => {
     const pageCount = [];
     for (let i = 1; i <= pages; i++) {
         pageCount.push(i);
-    }
+    } 
 
     function setData(page, entries) {
         const data = apiData.slice(page * 10)

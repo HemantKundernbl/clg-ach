@@ -10,7 +10,7 @@ const Header = () => {
      </div>
       <p class="font text-lg py-2">Los Guardianes Del Pueblo</p>
 	<p className='pb-3'><i>Trayendo alivio de inmigración a nuestra comunidad, a todo el país.</i></p>
-    </div>
+    </div> 
   );
 };
 

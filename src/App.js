@@ -186,7 +186,7 @@ const App = () => {
               onSelectionChange={handleSelectionChange}
             />
             <button className="mt-4" onClick={() => Table.getSelectedValues()}>
-              Get Selected Values
+              Get Selected
             </button>
           </>
         )}
